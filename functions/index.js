@@ -27,29 +27,6 @@ exports.badWords = functions.firestore
     })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 exports.myFirstFunction = functions.https.onRequest((req, res) => {
 
     const name = req.query.name;
